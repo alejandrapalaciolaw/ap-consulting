@@ -11,10 +11,10 @@ const ServicePage = () => {
 
   return (
     <>
-      <BoxLayout title={service.title}>
-        <h2>{service.title}</h2>
-        <p>{service.description}</p>
-        <img width={300} src={service.image} alt={service.title} />
+      <BoxLayout title={service?.title}>
+        <h2>{service?.title}</h2>
+        <p>{service?.description}</p>
+        <img width={300} src={service?.image} alt={service?.title} />
       </BoxLayout>
     </>
   );
