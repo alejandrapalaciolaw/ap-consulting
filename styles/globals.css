@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -13,4 +12,31 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 200;
+}
+/* Variable */
+
+:root {
+  --main: #0d335d;
+  --mainDark: #072649;
+  --secondary: #fff3e6;
+  --darkSecondary: #f6e8d8;
+  --black: #000e1a;
+  --white: #fff;
 }
