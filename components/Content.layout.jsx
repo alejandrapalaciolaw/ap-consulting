@@ -1,18 +1,11 @@
-import styled from "styled-components";
-import { color, space, layout } from "styled-system";
-import Typography from "@material-ui/core/Typography";
-
 import style from "../styles/Content.module.css";
 
-const BoxComponent = styled.div`
-  ${space}
-  ${layout}
-  ${color}
-`;
-
-const Box = ({ children, title }) => {
+const Box = ({ children, title, height }) => {
   return (
-    <div className={style.container}>
+    <div
+      className={style.container}
+      style={{ minHeight: "100vh", height: "auto" }}
+    >
       <div className={style.aside}>
         <div className={style.title}>
           <h3>{title}</h3>
