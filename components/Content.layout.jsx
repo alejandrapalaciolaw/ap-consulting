@@ -1,6 +1,6 @@
 import style from "../styles/Content.module.css";
 
-const Box = ({ children, title, height }) => {
+const Box = ({ children, title }) => {
   return (
     <div
       className={style.container}

@@ -6,6 +6,9 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+import { Button } from "@material-ui/core";
+
+import style from "../styles/BuyProcess.module.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -79,27 +82,36 @@ const BuyProcessComponent = () => {
             scrollButtons="auto"
             aria-label="scrollable auto tabs example"
           >
-            <Tab label="Step One" {...a11yProps(0)} />
-            <Tab label="Step Two" {...a11yProps(1)} />
-            <Tab label="Step Three" {...a11yProps(2)} />
-            <Tab label="Step Four" {...a11yProps(3)} />
-            <Tab label="Step Five" {...a11yProps(4)} />
+            <Tab label="Choose" {...a11yProps(0)} />
+            <Tab label="Contact me" {...a11yProps(1)} />
+            <Tab label="Payment" {...a11yProps(2)} />
+            <Tab label="Delivery" {...a11yProps(3)} />
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
-          Step One
+          <article className={style.buy_process_child}>
+            <p>Choose a services that fit with your situation</p>
+            <Button variant="contained">Services</Button>
+          </article>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Step Two
+          <article className={style.buy_process_child}>
+            <p>Contact me, I will handle your problem personally</p>
+            <Button variant="contained">Contact Me</Button>
+          </article>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Step Three
+          <article className={style.buy_process_child}>
+            <p> I will send you an email with the consulting price</p>
+          </article>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Step Four
-        </TabPanel>
-        <TabPanel value={value} index={4}>
-          Step Five
+          <article className={style.buy_process_child}>
+            <p>
+              Once your payment is confirmed you'll receive all the documents
+              need it to solve your case.
+            </p>
+          </article>
         </TabPanel>
       </div>
     </div>
