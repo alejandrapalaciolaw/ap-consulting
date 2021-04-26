@@ -1,21 +1,21 @@
-const services = [
+const blogs = [
   {
-    id: "service_001",
+    id: "blog_001",
     title: "Divorcios",
     description: "Hola soy german",
     image:
       "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
-    id: "service_002",
-    title: "Service 2",
+    id: "blog_002",
+    title: "blog 2",
     description: "Description Description Description Description ",
     image:
       "https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
   {
-    id: "service_003",
-    title: "Service 3",
+    id: "blog_003",
+    title: "blogs 3",
     description:
       "Description Description Description Description Description Description ",
     image:
@@ -23,4 +23,4 @@ const services = [
   },
 ];
 
-export default services;
+export default blogs;

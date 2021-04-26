@@ -9,6 +9,8 @@ import BuyProcessComponent from "../components/BuyProcess.component";
 import ContactComponent from "../components/Contact.component";
 import BlogComponent from "../components/Blog.component";
 
+import homeData from "../data/home";
+
 export default function Home() {
   return (
     <ThemeProvider theme={theme}>
@@ -23,19 +25,19 @@ export default function Home() {
           />
         </Head>
 
-        <BoxLayout title="About Me">
+        <BoxLayout title={homeData.hero.title}>
           <HeroComponent />
         </BoxLayout>
-        <BoxLayout title="Services">
+        <BoxLayout title={homeData.services.title}>
           <ServicesComponent />
         </BoxLayout>
-        <BoxLayout title="Buy Process">
+        <BoxLayout title={homeData.buyProcess.title}>
           <BuyProcessComponent />
         </BoxLayout>
-        <BoxLayout title="Contact">
+        <BoxLayout title={homeData.contact.title}>
           <ContactComponent />
         </BoxLayout>
-        <BoxLayout title="Blog">
+        <BoxLayout title={homeData.blog.title}>
           <BlogComponent />
         </BoxLayout>
       </div>
