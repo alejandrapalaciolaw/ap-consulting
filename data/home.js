@@ -10,8 +10,8 @@ const homeData = {
     title: "Servicios",
     subtitle: "",
     content: "",
-    hasCallToAction: false,
-    callToActionText: "",
+    hasCallToAction: true,
+    callToActionText: "Ver todos",
   },
   buyProcess: {
     title: "Proceso de Compra",
@@ -23,9 +23,9 @@ const homeData = {
   contact: {
     title: "Contacto",
     subtitle: "",
-    content: "",
-    hasCallToAction: false,
-    callToActionText: "",
+    content: "Quisiera exponer su caso?",
+    hasCallToAction: true,
+    callToActionText: "Enviar Correo",
   },
   blog: {
     title: "Blog",

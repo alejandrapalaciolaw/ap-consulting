@@ -1,7 +1,7 @@
 const blogs = [
   {
     id: "blog_001",
-    title: "Divorcios",
+    title: "Blog 1",
     description: "Hola soy german",
     image:
       "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",

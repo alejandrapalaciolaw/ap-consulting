@@ -8,11 +8,11 @@ import {
 import React from "react";
 import ActiveLink from "./ActiveLink.component";
 
-const CardComponent = ({ service }) => {
+const CardComponent = ({ service, href }) => {
   const { title, description, image, id } = service;
   return (
     <>
-      <ActiveLink href={`/services/${[id]}`}>
+      <ActiveLink href={`/${href}/${[id]}`}>
         <Card
           style={{ height: 300, width: 250, minWidth: 200, margin: "1rem" }}
         >
