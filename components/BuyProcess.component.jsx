@@ -6,9 +6,10 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import { Button } from "@material-ui/core";
+import { Button, Link } from "@material-ui/core";
 
 import style from "../styles/BuyProcess.module.css";
+import ActiveLink from "./ActiveLink.component";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -82,35 +83,44 @@ const BuyProcessComponent = () => {
             scrollButtons="auto"
             aria-label="scrollable auto tabs example"
           >
-            <Tab label="Choose" {...a11yProps(0)} />
-            <Tab label="Contact me" {...a11yProps(1)} />
-            <Tab label="Payment" {...a11yProps(2)} />
-            <Tab label="Delivery" {...a11yProps(3)} />
+            <Tab label="Elige" {...a11yProps(0)} />
+            <Tab label="Contacto" {...a11yProps(1)} />
+            <Tab label="Pago" {...a11yProps(2)} />
+            <Tab label="Entrega" {...a11yProps(3)} />
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
           <article className={style.buy_process_child}>
-            <p>Choose a services that fit with your situation</p>
-            <Button variant="contained">Services</Button>
+            <p>Elige un servicio que se ajuste a tus necesidades.</p>
+            <ActiveLink href="/services">
+              <Button variant="contained">Servicios</Button>
+            </ActiveLink>
           </article>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <article className={style.buy_process_child}>
-            <p>Contact me, I will handle your problem personally</p>
-            <Button variant="contained">Contact Me</Button>
+            <p>Contáctame vía correo electrónico para evaluar tu caso.</p>
+            <Link
+              href="mailto:alejandrapalaciolaw@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <Button variant="contained">Enviar correo</Button>
+            </Link>
           </article>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <article className={style.buy_process_child}>
-            <p> I will send you an email with the consulting price</p>
+            <p>
+              Una vez evaluado tu caso se te enviará un link en respuesta al
+              correo con el link para realizar el pago.
+            </p>
           </article>
         </TabPanel>
         <TabPanel value={value} index={3}>
           <article className={style.buy_process_child}>
-            <p>
-              Once your payment is confirmed you'll receive all the documents
-              need it to solve your case.
-            </p>
+            <p>Solución del caso.</p>
           </article>
         </TabPanel>
       </div>

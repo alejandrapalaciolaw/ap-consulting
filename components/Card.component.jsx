@@ -7,6 +7,24 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import ActiveLink from "./ActiveLink.component";
+import styled from "styled-components";
+
+const OverflowParagraph = styled.p`
+  display: -webkit-box;
+  -webkit-line-clamp: ${(props) => props.lines};
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.4rem;
+`;
+
+const OverflowTitle = styled.h3`
+  display: -webkit-box;
+  -webkit-line-clamp: ${(props) => props.lines};
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1.3rem;
+`;
 
 const CardComponent = ({ service, href }) => {
   const { title, description, image, id } = service;
@@ -25,12 +43,9 @@ const CardComponent = ({ service, href }) => {
               title="Contemplative Reptile"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                {title}
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                {description}
-              </Typography>
+              <OverflowTitle lines={1}>{title}</OverflowTitle>
+
+              <OverflowParagraph lines={4}>{description}</OverflowParagraph>
             </CardContent>
           </CardActionArea>
         </Card>

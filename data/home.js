@@ -1,6 +1,6 @@
 const homeData = {
   hero: {
-    title: "Inicio",
+    title: "Home",
     content: "Alejandra Palacio",
     subContent: "Consultoria",
     hasCallToAction: false,
@@ -8,28 +8,28 @@ const homeData = {
   },
   services: {
     title: "Servicios",
-    subtitle: "",
+    subContent: "",
     content: "",
     hasCallToAction: true,
     callToActionText: "Ver todos",
   },
   buyProcess: {
     title: "Proceso de Compra",
-    subtitle: "",
+    subContent: "",
     content: "",
     hasCallToAction: false,
     callToActionText: "",
   },
   contact: {
     title: "Contacto",
-    subtitle: "",
+    subContent: "",
     content: "Quisiera exponer su caso?",
     hasCallToAction: true,
     callToActionText: "Enviar Correo",
   },
   blog: {
     title: "Blog",
-    subtitle: "",
+    subContent: "",
     content: "",
     hasCallToAction: false,
     callToActionText: "",

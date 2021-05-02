@@ -24,7 +24,6 @@ export default function Home() {
             rel="stylesheet"
           />
         </Head>
-
         <BoxLayout title={homeData.hero.title}>
           <HeroComponent />
         </BoxLayout>
@@ -37,7 +36,7 @@ export default function Home() {
         <BoxLayout title={homeData.contact.title}>
           <ContactComponent />
         </BoxLayout>
-        <BoxLayout title={homeData.blog.title}>
+        <BoxLayout id="blogs-section" title={homeData.blog.title}>
           <BlogComponent />
         </BoxLayout>
       </div>

@@ -22,6 +22,14 @@ const blogs = [
     image:
       "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
+  {
+    id: "compus-baratas",
+    title: "blogs 3",
+    description:
+      "Description Description Description Description Description Description ",
+    image:
+      "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+  },
 ];
 
 export default blogs;
