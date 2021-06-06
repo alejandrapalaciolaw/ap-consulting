@@ -1,7 +1,7 @@
 const blogs = [
   {
-    id: "como-arreglar",
-    title: "Arregla tu mismo tu tv",
+    id: "derecho-de-familia",
+    title: "A",
     description:
       "PAra arreglar carreta... .... ... PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...PAra arreglar carreta... .... ...",
     image:
