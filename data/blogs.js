@@ -24,7 +24,7 @@ const blogs = [
   },
   {
     id: "blog_004",
-    title: "Legislacion De Menores",
+    title: "Ley De Menores",
     description:
       ""
     ,
