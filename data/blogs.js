@@ -18,7 +18,7 @@ const blogs = [
     id: "blog_003",
     title: "Derecho Laboral",
     description:
-      "El Derecho del Trabajo es una rama del Derecho en general, y del Derecho Privado en particular, que regula jurídicamente las relaciones entre empleados y empleadores, en forma individual y colectiva, estableciendo sus derechos y deberes recíprocos. ",
+      "El Derecho del Trabajo es una rama del Derecho en general y del Derecho Privado en particular que regula jurídicamente las relaciones entre empleados y empleadores, en forma individual y colectiva, estableciendo sus derechos y deberes recíprocos",
     image:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
   },
