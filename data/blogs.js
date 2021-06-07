@@ -1,7 +1,7 @@
 const blogs = [
   {
     id: "blog_001",
-    title: "Derecho de Familia",
+    title: "Derecho de familia",
     description:
       "",
     image:
