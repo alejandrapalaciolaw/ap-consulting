@@ -1,23 +1,22 @@
 const services = [
   {
-    id: "service_001",
-    title: "Divorcios",
-    description: "Hola soy german",
+    id: "learn-more01",
+    title: "Metodo de estudio ",
+    description: "",
     image:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "https://images.unsplash.com/photo-1599249300675-c39f1dd2d6be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
   },
   {
-    id: "service_002",
-    title: "Service 2",
-    description: "Description Description Description Description ",
-    image:
-      "https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    id: "learn-more02",
+    title: "Orientacion Legal",
+    description: "",
+    image:"https://images.unsplash.com/photo-1423592707957-3b212afa6733?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80",
   },
   {
-    id: "responsabilidad",
-    title: "responsbilidad",
+    id: "learn-more03",
+    title: "Traductor Independiente (freelance)",
     description:
-      "Description Description Description Description Description Description ",
+      "",
     image:
       "https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
