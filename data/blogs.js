@@ -27,7 +27,7 @@ const blogs = [
     title: "Legislacion De Menores",
     description:
       ""
-    ",
+    ,
     image:
       "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1159&q=80",
   },
