@@ -10,7 +10,7 @@ const blogs = [
   {
     id: "blog_002",
     title: "Derecho Penal",
-    description: "El derecho penal es la rama del derecho público que regula la potestad punitiva del Estado. El derecho penal asocia a la realización de determinadas conductas, llamadas delitos, penas y medidas de seguridad como consecuencias jurídicas",
+    description: "El derecho penal asocia a la realización de determinadas conductas, llamadas delitos, penas y medidas de seguridad como consecuencias jurídicas",
     image:
       "https://images.unsplash.com/photo-1560575193-c2c9e886aefe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
   },
